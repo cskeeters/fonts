@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Font Index",
+  "description": "A app that helps chad find his favorite fonts.",
+  "version": "0.2",
+  "app": {
+    "background": {
+      "scripts": ["app/background.js"]
+    }
+  },
+  "icons": {
+    "32": "app/Font_Icon_32.png",
+    "64": "app/Font_Icon_64.png",
+    "128": "app/Font_Icon_128.png",
+    "256": "app/Font_Icon_256.png"
+  },
+  "permissions": [
+    "http://*/*",
+    "file:///*",
+    "storage"
+  ]
+}
