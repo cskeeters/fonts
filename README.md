@@ -1,8 +1,6 @@
-# HTML Options
+# Font Index
 
-A boilerplate html page that can be populated with options where each option meets certain requirements and has a price.  When the page is viewed, the options will be displayed with the requirements that can be selected.  As the requirements are selected, options that don't meet the selected requirements are filtered out and the minimum price is updated.
+This project allows chad to select one of his favorite fonts by filtering the
+choices.
 
-Options should be entered in order of price so the cheapest is always on top.
-
-Think of this as a Kayak-like interface for other choices.
-# This is my README
+This site was built from [html-options](https://bitbucket.org/cskeeters/html-options).
