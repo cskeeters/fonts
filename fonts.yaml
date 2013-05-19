@@ -1,0 +1,593 @@
+categories:
+  - name: rating
+    reqs: r1 r2 r3
+  - name: availability
+    reqs: bought free pro browser osx windows msoffice linux google ofl
+  - name: visual
+    reqs: sans serif slab mono
+  - name: styles
+    reqs: thin book regular italic semibold bold bolditalic extrabold black ornamants
+  - name: capabilities
+    reqs: condensed smallcaps ligatures
+  - name: type
+    reqs: unknown humanist oldstyle realist modern transitional garalde traditional didone mechanistic lineal grotesque neo_grotesque geometric modern_humanist glyphic script graphic blackletter gaelic
+  - name: media
+    reqs: web print
+  - name: size
+    reqs: text heading
+
+fonts:
+#http://openfontlibrary.org/en/font/linear-regular
+#http://openfontlibrary.org/en/font/junction
+#http://openfontlibrary.org/en/font/freeuniversal
+#http://openfontlibrary.org/en/font/lets-trace
+#http://openfontlibrary.org/en/font/acknowledgement
+#http://www.type-together.com/Bree
+#http://www.myfonts.com/fonts/laura-worthington/number-five/
+#http://www.myfonts.com/fonts/fontex/brillian/
+#http://www.myfonts.com/fonts/typesenses/wishes-script/
+#http://www.myfonts.com/fonts/adobe/kepler/
+#Junge (thin serif)
+#Interval Sans Pro (expensive)
+#Delius (Hand writting)
+#Coming Soon (Hand writting)
+#Perpetua
+#Trajan Pro
+#Grand Hotel
+#Supria Sans Condensed
+#Bevan
+#Arapey
+#anodyne
+#Corben
+#http://www.briangardner.com/most-popular-serif-google-fonts/
+#
+  #- name: Name
+    #reqs: nr r1 r2 r3 bought free pro browser windows msoffice osx linux google sans serif slab mono thin book regular italic semibold bold bolditalic extrabold black ornamants condensed smallcaps ligatures unknown humanist oldstyle realist modern transitional garalde traditional didone mechanistic lineal grotesque neo_grotesque geometric modern_humanist glyphic script graphic blackletter gaelic web print text heading
+    #fontFamily: Name
+    #google: Name
+
+#Sans
+  - name: Source Sans Pro
+    reqs: r3 free google sans thin book regular italic semibold bold bolditalic extrabold black grotesque web print text heading
+  - name: Open Sans
+    reqs: r3 free google sans book regular italic semibold bold bolditalic extrabold condensed humanist web print text heading
+    info: "  <ul>     <li><a href=\"http://www.google.com/webfonts/specimen/Open+Sans+Condensed\">Google (Condensed)</a></li>   </ul>"
+  - name: Cabin
+    reqs: r3 google sans regular italic bold bolditalic humanist condensed web print text heading
+  - name: Cabin Condensed
+    reqs: r3 google sans regular italic bold bolditalic humanist condensed web print heading
+  - name: Roboto
+    reqs: r3 free google sans thin book regular italic semibold bold bolditalic extrabold black geometric web print text heading
+  - name: Roboto Condensed
+    reqs: r3 free google sans thin book regular italic semibold bold bolditalic extrabold black condensed geometric web print text heading
+  - name: Droid Sans
+    reqs: r3 free google sans regular italic bold bolditalic humanist web print text heading
+  - name: DejaVu Sans
+    reqs: r3 free linux sans book regular italic bold bolditalic condensed unknown humanist web print text heading
+    info: "  Extension of Bitstream Vera Sans<br>"
+  - name: DejaVu Sans Condensed Bold
+    reqs: r3 free linux sans book regular italic bold bolditalic condensed unknown humanist web print text heading
+    info: "  * Not rendering"
+    fontFamily: DejaVuSans-CondensedBold
+  - name: PT Sans
+    reqs: r3 free pro google sans condensed regular italic bold bolditalic modern_humanist web print text heading
+    info: "  <ul>     <li><a href=\"http://www.google.com/webfonts/specimen/PT Sans Caption\">Google (Caption)</a></li>     <li><a href=\"http://www.google.com/webfonts/specimen/PT Sans Narrow\">Google (Narrow)</a></li>   </ul>"
+  - name: PT Sans Narrow
+    reqs: r3 free pro google sans condensed regular italic bold bolditalic modern_humanist web print heading
+  - name: Raleway
+    reqs: r3 free google sans thin book regular semibold bold extrabold black ligatures grotesque geometric web print text heading
+  - name: Lato
+    reqs: r3 free google sans thin book regular bold black unknown web print text heading
+  - name: Merriweather sans
+    reqs: r3 free google sans book regular bold black geometric web print text heading
+  - name: Istok Web
+    reqs: r3 free google sans regular italic bold bolditalic grotesque web print text heading
+  - name: TeX Gyre Heros
+    reqs: r3 free sans regular italic bold bolditalic condensed neo_grotesque web print text heading
+    info: "  Replacement for Helvetica<br>"
+  - name: TeX Gyre Heros Cn
+    reqs: r3 free sans regular italic bold bolditalic condensed neo_grotesque web print text heading
+    info: "  Replacement for Helvetica<br>"
+  - name: Tauri
+    reqs: r3 free google sans regular condensed grotesque web print heading
+  - name: Edmondsans
+    reqs: r3 free sans regular semibold bold smallcaps geometric web print text heading
+  - name: Oxygen
+    reqs: r3 free google sans book regular bold humanist web print text heading
+  - name: Alright Sans
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black smallcaps ligatures grotesque geometric web print text heading
+    price: 40
+  - name: Molengo
+    reqs: r2 free google sans regular geometric web print text heading
+  - name: Asap
+    reqs: r3 free google sans regular italic bold bolditalic unknown web print text heading
+  - name: Actor
+    reqs: r2 free google sans regular unknown web print text heading
+  - name: Cousine
+    reqs: r3 free google sans mono regular italic bold bolditalic unknown web print text heading
+  - name: Quattrocento Sans
+    reqs: r2 free google sans thin regular italic bold bolditalic geometric web print text heading
+  - name: Scada
+    reqs: r2 free google sans regular italic bold bolditalic condensed unknown web print heading
+  - name: Gudea
+    reqs: r2 free google sans regular italic bold grotesque web print text heading
+  - name: Arimo
+    reqs: r1 free google sans regular italic bold bolditalic grotesque web print text heading
+    info: Arial Replacement
+  - name: Didact Gothic
+    reqs: r2 free google sans regular condensed geometric web print text heading
+  - name: Nobile
+    reqs: r2 free google sans regular italic bold bolditalic unknown web print text heading
+  - name: TeX Gyre Adventor
+    reqs: r2 free sans regular italic bold bolditalic geometric web print text heading
+    info: "  Replacement for ITC Avant Garde Gothic<br>"
+  - name: Carrois Gothic
+    reqs: r3 free google sans regular condensed smallcaps unknown web print text heading
+  - name: Carrois Gothic SC
+    reqs: r2 free google sans regular condensed smallcaps unknown web print heading
+  - name: ABeeZee
+    reqs: r2 free google sans regular italic grotesque web print text
+  - name: Muli
+    reqs: r2 google sans book regular italic humanist web print text heading
+
+#Non-Free Sans
+  - name: Gibson
+    reqs: nr r3 pro sans book regular italic semibold bold bolditalic extrabold humanist web print text heading
+    price: 5
+  - name: Proxima Nova
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist geometric web print text heading
+    price: 29
+    info: "  See Futura and Akzidenz Grotesk"
+  - name: Benton Sans
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps realist web print text heading
+    price: 40
+  - name: Frutiger Neue
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed humanist web print text heading
+    price: 79
+  - name: Frutiger
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed humanist web print text heading
+    price: 26
+  - name: Univers
+    reqs: nr r3 pro sans book regular italic semibold bold bolditalic extrabold black condensed smallcaps neo_grotesque web print text heading
+    price: 35
+    info: "  Similar to Folio, Akzidenz Grotesk"
+  - name: Interstate
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist geometric web print text heading
+    price: 40
+  - name: Avenir
+    reqs: r3 pro osx sans thin book regular italic semibold bold bolditalic extrabold black humanist geometric web print text heading
+    price: 26
+    info: "  Full Family: $375<br>   Better:<a href=\"#Futura\">Futura</a>, Erbar<br>"
+  - name: Avenir Next
+    reqs: r3 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed humanist geometric web print text heading
+    price: 79
+    info: "  Full Family: $375<br>   Better:<a href=\"#Futura\">Futura</a>, Erbar<br>"
+  - name: Avenir Next Condensed
+    reqs: r3 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed humanist geometric web print text heading
+    price: 79
+    info: "  Full Family: $375<br>   Better:<a href=\"#Futura\">Futura</a>, Erbar<br>"
+  - name: DIN Next Pro
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps realist web print text heading
+    price: 79
+    info: "  Defined by DIN 1451 German Standardization"
+  - name: FF DIN
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps realist web print text heading
+    price: 65
+    info: "  Defined by DIN 1451 German Standardization"
+  - name: Brandon Grotesque
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black geometric web print text heading
+    price: 40
+  - name: Futura
+    reqs: r2 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed geometric web print text heading
+    price: 26
+    info: "  Futura, \"Trebuchet MS\", Arial, sans-serif;<br>"
+  - name: Futura Condensed
+    reqs: r2 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed geometric web print text heading
+    price: 36
+    info: Futura-CondensedMedium<br>
+    fontFamily: Futura-CondensedMedium
+  - name: Futura Condensed ExtraBold
+    reqs: r2 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed geometric web print text heading
+    price: 36
+    info: "  Futura-CondensedExtraBold<br>"
+    fontFamily: "Futura-CondensedExtraBold"
+  - name: Helvetica Neue
+    reqs: r3 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps neo_grotesque web print text heading
+    price: 35
+    info: "  \"Helvetica Neue\", Helvetica, Arial, sans-serif;<br>"
+  - name: Helvetica
+    reqs: r3 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps neo_grotesque web print text heading
+    price: 26
+  - name: Nexa
+    reqs: r2 free pro bought sans thin book regular bold extrabold black unknown web print text heading
+    price: 17
+    info: "  <ul>     <li><a href=\"http://www.myfonts.com/fonts/font-fabric/Nexa/\">MyFonts</a></li>   </ul>"
+  - name: Aller
+    reqs: r3 free pro sans regular italic bold bolditalic unknown web print text heading
+  - name: Aller Display
+    reqs: r3 free pro sans black unknown web print text heading
+  - name: Aller Light
+    reqs: r3 free pro sans thin unknown web print text heading
+  - name: Gotham
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black ornamants condensed smallcaps ligatures geometric web print text heading
+    info: http://www.typography.com/fonts/font_overview.php?productLineID=100008
+  - name: Lucida Sans Unicode
+    reqs: r1 free pro windows osx sans regular italic semibold bold bolditalic condensed smallcaps humanist web print text
+  - name: Lucida Grande
+    reqs: r2 free osx sans regular italic bold bolditalic humanist web print text heading
+    info: "  \"Lucida Grande\", \"Lucida Sans Unicode\", \"Lucida Sans\", Verdana, Tahoma, sans-serif;<br>"
+  - name: Gill Sans
+    reqs: r2 free pro browser windows osx sans thin book regular italic semibold bold bolditalic extrabold black condensed humanist web print text heading
+    info: "  \"Gill Sans\", \"Gill Sans MT\", Calibri, sans-serif;<br>"
+  - name: Century Gothic
+    reqs: r2 free pro msoffice sans regular italic bold bolditalic geometric web print text
+  - name: Calibri
+    reqs: r2 pro windows msoffice sans regular italic bold bolditalic smallcaps humanist web print text heading
+    info: "  Calibri, Candara, Segoe, \"Segoe UI\", Optima, Arial, sans-serif;<br>"
+  - name: Arial
+    reqs: r2 free pro browser windows osx linux sans thin book regular italic semibold bold bolditalic extrabold black condensed neo_grotesque web text heading
+    info: "  \"Hoefler Text\", \"Baskerville old face\", Garamond, \"Times New Roman\", serif;<br>"
+  - name: Candara
+    reqs: r1 pro windows msoffice sans regular italic bold bolditalic humanist web print text heading
+    info: "  Candara, Calibri, Segoe, \"Segoe UI\", Optima, Arial, sans-serif;<br>"
+  - name: FF Dagny
+    reqs: nr r3 pro sans thin book regular italic bold bolditalic black unknown web print text heading
+    price: 65
+  - name: FF Sero
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black ornamants humanist web print text heading
+    price: 55
+  - name: Air
+    reqs: nr r2 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist web print text heading
+    price: 29
+  - name: Akzidenz Grotesk
+    reqs: nr r3 pro sans book regular italic semibold bold bolditalic extrabold black condensed grotesque web print text heading
+    price: 32
+    info: "  Similar: Folio, Univers, Helvetica<br>"
+  - name: Corbel
+    reqs: r3 pro windows msoffice sans regular italic bold bolditalic web print text heading
+  - name: Franklin Gothic
+    reqs: r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps grotesque web print text heading
+    price: 19
+    info: Has Extra condensed!<br>
+          "Franklin Gothic", "Franklin Gothic Medium", Arial, sans-serif;<br>
+  - name: Myriad Pro
+    reqs: r3 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist web print text heading
+  - name: Tahoma
+    reqs: r1 pro browser windows osx linux sans regular italic bold bolditalic condensed smallcaps humanist web text
+    info: "  Tahoma, Geneva, Verdana, sans-serif;<br>"
+  - name: Verdana
+    reqs: r1 free browser windows msoffice osx linux sans regular italic bold bolditalic humanist web text heading
+    info: "  Verdana, Geneva, sans-serif;<br>"
+  - name: Impact
+    reqs: r1 free pro browser windows osx linux sans regular realist web print text heading
+  - name: Arial Black
+    reqs: r1 free pro browser windows msoffice osx linux sans regular neo_grotesque web print text heading
+  - name: Trebuchet MS
+    reqs: r1 free browser windows osx linux sans regular italic bold bolditalic humanist web print text heading
+    info: "  \"Trebuchet MS\", \"Lucida Grande\", \"Lucida Sans Unicode\", \"Lucida Sans\", Tahoma, sans-serif;<br>"
+  - name: Geneva
+    reqs: r1 pro osx sans regular realist humanist web print text heading
+    info: Only Distributed with Mac<br>
+          Geneva, Tahoma, Verdana, sans-serif
+  - name: Segoe UI
+    reqs: nr r1 windows sans regular italic bold bolditalic humanist web print text heading
+    info: "  Not Rendered on OSX<br>   \"Segoe UI\", Segoe, Tahoma, Geneva, sans-serif;<br>   Segoe, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif;<br>"
+  - name: Monaco
+    reqs: r2 osx sans mono regular web print text heading
+  - name: Optima Nova
+    reqs: nr r3 pro sans book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist web print text heading
+    price: 79
+  - name: Optima
+    reqs: r2 free pro osx sans regular italic semibold bold bolditalic extrabold black humanist web print text heading
+    price: 26
+    info: "  Optima, Segoe, \"Segoe UI\", Candara, Calibri, Arial, sans-serif;<br>"
+  - name: Vectora
+    reqs: nr r2 pro sans book regular italic semibold bold bolditalic black humanist web print text heading
+    price: 26
+    info: "  Use for small text.<br>"
+  - name: FF Meta
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black smallcaps humanist web print text heading
+    price: 89
+  - name: FF Scala Sans
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist web print text heading
+    price: 65
+  - name: FF Kievit
+    reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps neo_grotesque web print text heading
+    price: 69
+    info: "  Good for Small print.  Rivals Univers and Frutiger<br>"
+  - name: Museo Sans
+    reqs: r2 bought free sans book regular bold geometric web print text heading
+  - name: Calluna Sans
+    reqs: r2 free pro sans thin regular italic semibold bold bolditalic black unknown web print text heading
+    info: Regular font is free.
+  - name: Atrament
+    reqs: nr r2 pro sans book regular italic semibold bold bolditalic condensed unknown web print heading
+    price: 75
+
+#Serifs
+  - name: Merriweather
+    reqs: r3 free google serif book regular bold black oldstyle web print text heading
+  - name: Droid Serif
+    reqs: r3 free google serif regular italic bold bolditalic oldstyle web print text heading
+  - name: Lora
+    reqs: r3 free google serif regular italic bold bolditalic oldstyle web print text heading
+  - name: Crimson Text
+    reqs: r3 free google serif regular italic semibold bold bolditalic unknown oldstyle web print text heading
+  - name: Goudy Old Style
+    reqs: r2 free pro osx google serif regular italic bold bolditalic extrabold oldstyle web print text heading
+    google: Sorts Mill Goudy
+    info: "  \"Goudy Old Style\", Garamond, \"Big Caslon\", \"Times New Roman\", serif;<br>   <ul>     <li style=\"font-family:'Goudy Bookletter 1911'\"><a href=\"http://www.google.com/webfonts/specimen/Goudy Bookletter 1911\">Google</a> (Bookletter 1911 - thicker)</li>   </ul>"
+  - name: Gentium Basic
+    reqs: r2 free google serif regular italic bold bolditalic oldstyle web print text heading
+  - name: Gentium Book Basic
+    reqs: r2 free google serif book regular italic bold bolditalic oldstyle web print text heading
+  - name: Lusitana
+    reqs: r2 free google serif regular bold oldstyle web print text heading
+  - name: Cardo
+    reqs: r2 free google serif regular italic bold unknown oldstyle web print text heading
+  - name: ITC Century
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black oldstyle web print text heading
+  - name: Hoefler Text
+    reqs: r3 pro windows osx serif regular italic bold bolditalic ornamants smallcaps oldstyle web print text heading
+  - name: Bookman Old Style
+    reqs: r2 pro windows msoffice osx serif regular italic bold bolditalic oldstyle web print text heading
+  - name: Average
+    reqs: r2 free google serif regular oldstyle web print text heading
+  - name: Alegreya
+    reqs: r2 free google serif regular italic bold bolditalic black oldstyle web print text heading
+  - name: Garamond
+    reqs: r2 free pro osx msoffice google serif regular italic bold oldstyle web print text heading
+    info: "  <a href=\"http://www.google.com/webfonts/specimen/EB+Garamond\">EB Garmond on Google</a><br>   Garamond, Baskerville, \"Baskerville Old Face\", \"Hoefler Text\", \"Times New Roman\", serif;<br>"
+  - name: Vollkorn
+    reqs: r2 free google serif regular italic bold bolditalic unknown web print text heading
+  - name: Poly
+    reqs: r2 free google serif regular italic oldstyle web print text heading
+  - name: PT Serif
+    reqs: r2 free pro google serif regular italic bold bolditalic traditional modern_humanist web print text heading
+    info: "  <ul>     <li><a href=\"http://www.google.com/webfonts/specimen/PT Serif Caption\">Google (Caption)</a></li>   </ul>"
+  - name: Buenard
+    reqs: r2 free google serif regular bold transitional web print text heading
+  - name: TeX Gyre Bonum
+    reqs: r2 free serif regular italic bold bolditalic oldstyle web print text heading
+    info: "  Replacement for ITC Bookman<br>"
+  - name: Old Standard TT
+    reqs: r1 free google serif mono regular italic bold oldstyle web print text heading
+  - name: Prociono
+    reqs: r2 free serif regular oldstyle web print text heading
+  - name: Fairfield
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black ornamants smallcaps ligatures oldstyle web print text heading
+  - name: Quattrocento
+    reqs: r2 free google serif regular italic bold bolditalic oldstyle web print text heading
+  - name: Volkhov
+    reqs: r2 free google serif regular italic bold bolditalic oldstyle web print heading
+  - name: TeX Gyre Termes
+    reqs: r2 free serif regular italic bold bolditalic transitional web print text heading
+  - name: TeX Gyre Schola
+    reqs: r2 free serif regular italic bold bolditalic transitional web print text heading
+    info: "  Replacement for Century Schoolbook<br>"
+  - name: Adelle
+    reqs: nr r3 pro serif slab thin book regular italic semibold bold bolditalic extrabold black smallcaps ligatures unknown mechanistic web print text heading
+    price: 65
+  - name: Cambria
+    reqs: r1 pro windows msoffice serif regular italic bold bolditalic web print text heading
+    info: "  Cambria, Georgia, serif;<br>"
+  - name: Baskerville
+    reqs: r2 free pro osx serif thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps transitional web print text heading
+    info: "  Baskerville, \"Baskerville old face\", \"Hoefler Text\", Garamond, \"Times New Roman\", serif;<br>"
+  - name: Magneta
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black smallcaps ligatures oldstyle geralde web print text heading
+  - name: Freight Text Pro
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black oldstyle web print text
+    price: 45
+  - name: FF Meta Serif
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black smallcaps humanist web print text heading
+    price: 69
+  - name: FF Scala
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist web print text heading
+    price: 65
+  - name: FF Tundra
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold condensed smallcaps unknown web print text heading
+    price: 65
+    info: "  Not wide font.  Not named condensed.<br>"
+  - name: Pluto
+    reqs: nr r2 pro serif thin book regular italic bold bolditalic extrabold black condensed script web print heading
+    price: 40
+  - name: Times New Roman
+    reqs: r2 free browser windows msoffice osx linux serif regular italic bold bolditalic condensed smallcaps transitional web print text heading
+  - name: Times
+    reqs: r2 free browser windows msoffice osx linux serif regular italic bold bolditalic condensed smallcaps transitional web print text heading
+  - name: Georgia
+    reqs: r2 free browser windows msoffice osx linux serif regular italic bold bolditalic condensed smallcaps transitional web print text heading
+  - name: Constantia
+    reqs: r2 pro windows msoffice serif regular italic bold bolditalic web print text heading
+    info: "  Constantia, Palatino, \"Palatino Linotype\", \"Palatino LT STD\", Georgia, serif;<br>"
+  - name: Palatino
+    reqs: r1 bought pro osx serif book regular italic bold bolditalic black smallcaps oldstyle web print text heading
+    info: "  Palatino, \"Palatino Linotype\", \"Palatino LT STD\", \"Book Antiqua\", Georgia, serif;<br>"
+  - name: Big Caslon
+    reqs: r2 pro osx serif book regular italic bold bolditalic condensed smallcaps oldstyle web print text heading
+    price: 35
+    info: "  * Many Varieties<br><br>   \"Big Caslon\", \"Book Antiqua\", \"Palatino Linotype\", Georgia, serif;<br>"
+  - name: Lucida Bright
+    reqs: r1 free pro osx serif regular bold bolditalic web print text heading
+    info: "  \"Lucida Bright\", Georgia, serif;"
+  - name: Book Antiqua
+    reqs: r1 windows msoffice osx serif regular italic bold bolditalic oldstyle web print text heading
+    info: "  Same as Monotype, Palatino, and Unternehmensberatung Rubow Weber (URW) Palladio L<br>"
+  - name: Menlo
+    reqs: r2 osx serif mono regular italic bold bolditalic unknown humanist web print text heading
+  - name: Cochin
+    reqs: r1 pro osx serif regular italic bold bolditalic transitional web print text heading
+    price: 26
+  - name: DejaVu Serif
+    reqs: r3 free linux serif book regular italic bold bolditalic condensed unknown humanist web print text heading
+    info: "  Extension of Bitstream Vera<br>"
+  - name: DejaVu Serif Condensed
+    reqs: r3 free linux serif book regular italic bold bolditalic condensed unknown humanist web print text heading
+    info: "  Extension of Bitstream Vera<br>"
+  - name: Meridien
+    reqs: nr r3 pro serif regular italic semibold bold bolditalic condensed oldstyle web print text heading
+    price: 26
+  - name: Egyptienne
+    reqs: nr r3 pro serif slab regular italic bold bolditalic black condensed smallcaps humanist web print text heading
+    price: 26
+  - name: Versailles
+    reqs: nr r3 pro serif book regular italic bold bolditalic black oldstyle web print text heading
+    price: 26
+  - name: TeX Gyre Pagella
+    reqs: r3 free serif regular italic bold bolditalic oldstyle web print text heading
+    info: "  <a href=\"http://en.wikipedia.org/wiki/Palatino\">Wikipedia</a>   Replacement for Palitino"
+  - name: FF Quadraat
+    reqs: nr r3 pro serif regular italic semibold bold bolditalic unknown web print text heading
+    price: 59
+  - name: FF Celeste
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black humanist modern_humanist web print text heading
+    price: 65
+  - name: Museo
+    reqs: r2 bought free serif slab book regular bold unknown web print text heading
+  - name: Calluna
+    reqs: r2 free pro serif thin regular italic semibold bold bolditalic black unknown web print text heading
+    info: Regular font is free.
+  - name: Otama.ep
+    reqs: r2 free pro serif thin book regular italic semibold bold bolditalic extrabold black didone web print text heading
+    price: 49
+    fontFamily: "Otama-ep"
+  - name: Neusa
+    reqs: nr r3 pro sans thin book regular semibold bold extrabold black condensed ligatures geometric web print text heading
+    info: Condensed Sans
+
+#TODO:Skolar
+
+# Slabs
+  - name: Bree Serif
+    reqs: r3 free google serif slab regular italic bold bolditalic unknown web print text heading
+  - name: Arvo
+    reqs: r2 free google serif slab regular italic bold bolditalic geometric web print text heading
+  - name: Crete Round
+    reqs: r2 free google serif slab regular italic oldstyle web print text heading
+  - name: Chaparral Pro
+    reqs: nr r3 pro serif slab book regular italic semibold bold bolditalic extrabold black condensed smallcaps ligatures oldstyle web print text heading
+  - name: Arbutus Slab
+    reqs: r2 free google serif slab regular oldstyle web print text heading
+  - name: Bitter
+    reqs: r2 free google serif slab regular italic bold web print text
+  - name: Clarendon
+    reqs: nr r3 pro serif slab book regular bold black web print text heading
+    price: 26
+  - name: Rockwell
+    reqs: r1 free pro osx slab thin book regular italic semibold bold bolditalic extrabold black condensed web print text heading
+  - name: Museo Slab
+    reqs: r2 bought free serif slab book regular bold unknown web print text heading
+  #- name: Trilby
+    #reqs: nr r2 pro serif slab regular italic bold bolditalic black web print text heading
+    #price: 40
+
+# Monos
+  - name: Droid Mono
+    reqs: r3 free google sans mono regular unknown web print text heading
+  - name: Consolas
+    reqs: r2 pro windows msoffice mono regular italic bold bolditalic web print text
+  - name: Courier New
+    reqs: r1 free pro browser windows osx linux google slab mono regular italic bold bolditalic web print text heading
+  - name: American Typewriter
+    reqs: r1 pro osx serif slab thin regular italic bold bolditalic condensed web print text heading
+  - name: DejaVu Sans Mono
+    reqs: r3 free linux sans mono regular italic bold bolditalic web print text heading
+    info: "  Extension of Bitstream Vera Sans Mono<br>"
+  - name: TeX Gyre Cursor
+    reqs: r1 free slab mono regular italic bold bolditalic web print text heading
+    info: "  Replacement for Courier<br>"
+
+#Headings
+  - name: Bemio
+    reqs: r2 free sans black unknown web print heading
+  - name: Bemio Italic
+    reqs: r2 free sans black unknown web print heading
+  - name: Chivo
+    reqs: r1 google sans regular italic bold bolditalic black grotesque web print text heading
+  - name: Playfair Display
+    reqs: r3 free google serif regular italic bold bolditalic black smallcaps ligatures transitional web print text heading
+  - name: Muncie
+    reqs: r2 free sans regular smallcaps unknown web print heading
+  - name: Arvil
+    reqs: r2 free sans regular smallcaps unknown web print heading
+  - name: vevey
+    reqs: r2 free sans regular smallcaps unknown web print heading
+  - name: Lavanderia
+    reqs: r3 free thin regular semibold script web print heading
+    info: Lost-Type Co-op
+  - name: Veneer
+    reqs: nr r2 pro sans regular italic web print heading
+    price: 15
+  - name: Antic Didone
+    reqs: r2 free google serif regular didone web print heading
+  - name: (Theano) Didot
+    reqs: r3 free pro osx serif regular italic bold ornamants didone web print heading
+    price: 26
+    info: "  Didot, \"Didot LT STD\", \"Hoefler Text\", Garamond, \"Times New Roman\", serif;<br>"
+    fontFamily: Didot
+  - name: Bodoni
+    reqs: r2 free pro msoffice serif book regular italic bold bolditalic condensed didone web print text heading
+    price: 26
+    info: "  \"Bodoni MT\", Didot, \"Didot LT STD\", \"Hoefler Text\", Garamond, \"Times New Roman\", serif;<br>"
+    fontFamily: BodoniFLF
+  - name: BodoniFLF
+    reqs: r3 free pro serif thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps didone web print text heading
+  - name: Mostra Nuova
+    reqs: nr r3 pro sans thin book regular semibold bold extrabold black unknown web print heading
+    price: 29
+
+#Script
+  - name: Ollie
+    reqs: nr r3 pro regular ligatures script web print heading
+  - name: Apple Chancery
+    reqs: r3 osx regular ligatures script web print heading
+  - name: Gelato Script
+    reqs: nr r2 pro regular italic smallcaps script web print heading
+    price: 60
+  - name: Satisfy
+    reqs: r3 free google regular script web print heading
+  - name: Bubblegum Sans
+    reqs: r2 free google regular script web print heading
+  - name: Sansita One
+    reqs: r2 free google regular script web print heading
+  - name: Comic Sans MS
+    reqs: r1 free browser windows osx linux sans regular italic bold bolditalic script web print text heading
+  - name: TeX Gyre Chorus
+    reqs: r1 free italic script web print text heading
+  - name: Rochester
+    reqs: r2 google regular script web print heading
+  - name: Niconne
+    reqs: r2 google regular script web print heading
+  - name: Dancing Script
+    reqs: r2 google regular bold script web print heading
+  - name: Oldenburg
+    reqs: r1 google regular script web print text heading
+  - name: Creamy Script
+    reqs: nr r3 pro book regular bold script web print heading
+    price: 29
+  - name: Coffee Service
+    reqs: nr r3 pro book regular bold script web print heading
+    price: 39
+  - name: Mercury Script
+    reqs: nr r3 pro book regular bold script web print heading
+    price: 25
+  - name: Courgette
+    reqs: r3 free google regular script web print heading
+  - name: Pacifico
+    reqs: r2 free google regular script web print text heading
+  - name: Mishka
+    reqs: nr r2 pro regular italic smallcaps script web print heading
+    price: 35
+  - name: Sacramento
+    reqs: r2 free google regular script web print heading
+  - name: Clicker Script
+    reqs: r3 free google regular script web print heading
+  - name: Zapfino
+    reqs: r1 osx regular ornamants script web print text heading
+
+
+#ornamants
+  - name: Webdings
+    reqs: r2 free browser windows osx linux ornamants web print text heading
+    info: "  * <a href=\"http://www.alanwood.net/demos/wingdings.html\">dont' use!</a>"
