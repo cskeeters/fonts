@@ -5,3 +5,4 @@ A boilerplate html page that can be populated with options where each option mee
 Options should be entered in order of price so the cheapest is always on top.
 
 Think of this as a Kayak-like interface for other choices.
+# This is my README
