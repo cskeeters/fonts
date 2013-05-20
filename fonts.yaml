@@ -1,14 +1,18 @@
 categories:
-  - name: rating
-    reqs: r1 r2 r3
+  - name: "Serif Styles"
+    reqs: serif oldstyle transitional modern slab
+  - name: "Sans Styles"
+    reqs: sans grotesque neo_grotesque humanist geometric
+  - name: "Script Styles"
+    reqs: script formal casual artistic
   - name: availability
     reqs: bought free pro browser osx windows msoffice linux google
   - name: styles
     reqs: thin book regular italic semibold bold bolditalic extrabold black ornamants
   - name: capabilities
     reqs: condensed smallcaps ligatures
-  - name: type
-    reqs: unknown serif oldstyle transitional modern slab sans grotesque neo_grotesque humanist geometric script formal casual
+  - name: rating
+    reqs: r1 r2 r3
 
 fonts:
 #http://openfontlibrary.org/en/font/linear-regular
@@ -36,7 +40,7 @@ fonts:
 #http://www.briangardner.com/most-popular-serif-google-fonts/
 #
   #- name: Name
-    #reqs: r1 r2 r3 bought free pro browser osx windows msoffice linux google thin book regular italic semibold bold bolditalic extrabold black ornamants condensed smallcaps ligatures unknown serif oldstyle transitional modern slab sans grotesque neo_grotesque humanist geometric script formal casual
+    #reqs: r1 r2 r3 bought free pro browser osx windows msoffice linux google thin book regular italic semibold bold bolditalic extrabold black ornamants condensed smallcaps ligatures serif oldstyle transitional modern slab sans grotesque neo_grotesque humanist geometric script formal casual
     #fontFamily: Name
     #google: Name
 
@@ -57,10 +61,10 @@ fonts:
   - name: Droid Sans
     reqs: r3 free google sans regular italic bold bolditalic humanist
   - name: DejaVu Sans
-    reqs: r3 free linux sans book regular italic bold bolditalic condensed unknown humanist
+    reqs: r3 free linux sans book regular italic bold bolditalic condensed humanist
     info: "  Extension of Bitstream Vera Sans<br>"
   - name: DejaVu Sans Condensed Bold
-    reqs: r3 free linux sans book regular italic bold bolditalic condensed unknown humanist
+    reqs: r3 free linux sans book regular italic bold bolditalic condensed humanist
     info: "  * Not rendering"
     fontFamily: DejaVuSans-CondensedBold
   - name: PT Sans
@@ -71,7 +75,7 @@ fonts:
   - name: Raleway
     reqs: r3 free google sans thin book regular semibold bold extrabold black ligatures grotesque geometric
   - name: Lato
-    reqs: r3 free google sans thin book regular bold black unknown
+    reqs: r3 free google sans thin book regular bold black
   - name: Merriweather Sans
     reqs: r3 free google sans book regular bold black geometric
   - name: Istok Web
@@ -94,15 +98,15 @@ fonts:
   - name: Molengo
     reqs: r2 free google sans regular geometric
   - name: Asap
-    reqs: r3 free google sans regular italic bold bolditalic unknown
+    reqs: r3 free google sans regular italic bold bolditalic
   - name: Actor
-    reqs: r2 free google sans regular unknown
+    reqs: r2 free google sans regular
   - name: Cousine
-    reqs: r3 free google sans mono regular italic bold bolditalic unknown
+    reqs: r3 free google sans mono regular italic bold bolditalic
   - name: Quattrocento Sans
     reqs: r2 free google sans thin regular italic bold bolditalic geometric
   - name: Scada
-    reqs: r2 free google sans regular italic bold bolditalic condensed unknown
+    reqs: r2 free google sans regular italic bold bolditalic condensed
   - name: Gudea
     reqs: r2 free google sans regular italic bold grotesque
   - name: Arimo
@@ -111,14 +115,14 @@ fonts:
   - name: Didact Gothic
     reqs: r2 free google sans regular condensed geometric
   - name: Nobile
-    reqs: r2 free google sans regular italic bold bolditalic unknown
+    reqs: r2 free google sans regular italic bold bolditalic
   - name: TeX Gyre Adventor
     reqs: r2 free sans regular italic bold bolditalic geometric
     info: "  Replacement for ITC Avant Garde Gothic<br>"
   - name: Carrois Gothic
-    reqs: r3 free google sans regular condensed smallcaps unknown
+    reqs: r3 free google sans regular condensed smallcaps
   - name: Carrois Gothic SC
-    reqs: r2 free google sans regular condensed smallcaps unknown
+    reqs: r2 free google sans regular condensed smallcaps
   - name: ABeeZee
     reqs: r2 free google sans regular italic grotesque
   - name: Muli
@@ -193,15 +197,15 @@ fonts:
     reqs: r3 pro osx sans thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps neo_grotesque
     price: 26
   - name: Nexa
-    reqs: r2 free pro bought sans thin book regular bold extrabold black unknown
+    reqs: r2 free pro bought sans thin book regular bold extrabold black
     price: 17
     info: "  <ul>     <li><a href=\"http://www.myfonts.com/fonts/font-fabric/Nexa/\">MyFonts</a></li>   </ul>"
   - name: Aller
-    reqs: r3 free pro sans regular italic bold bolditalic unknown
+    reqs: r3 free pro sans regular italic bold bolditalic
   - name: Aller Display
-    reqs: r3 free pro sans black unknown
+    reqs: r3 free pro sans black
   - name: Aller Light
-    reqs: r3 free pro sans thin unknown
+    reqs: r3 free pro sans thin
   - name: Gotham
     reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black ornamants condensed smallcaps ligatures geometric
     info: http://www.typography.com/fonts/font_overview.php?productLineID=100008
@@ -225,7 +229,7 @@ fonts:
     reqs: r1 pro windows msoffice sans regular italic bold bolditalic humanist
     info: "  Candara, Calibri, Segoe, \"Segoe UI\", Optima, Arial, sans-serif;<br>"
   - name: FF Dagny
-    reqs: nr r3 pro sans thin book regular italic bold bolditalic black unknown
+    reqs: nr r3 pro sans thin book regular italic bold bolditalic black
     price: 65
   - name: FF Sero
     reqs: nr r3 pro sans thin book regular italic semibold bold bolditalic extrabold black ornamants humanist
@@ -292,10 +296,10 @@ fonts:
   - name: Museo Sans
     reqs: r2 bought free sans book regular bold geometric
   - name: Calluna Sans
-    reqs: r2 free pro sans thin regular italic semibold bold bolditalic black unknown
+    reqs: r2 free pro sans thin regular italic semibold bold bolditalic black
     info: Regular font is free.
   - name: Atrament
-    reqs: nr r2 pro sans book regular italic semibold bold bolditalic condensed unknown
+    reqs: nr r2 pro sans book regular italic semibold bold bolditalic condensed
     price: 75
 
 #Serifs
@@ -310,7 +314,7 @@ fonts:
   - name: Lora
     reqs: r3 free google serif regular italic bold bolditalic oldstyle
   - name: Crimson Text
-    reqs: r3 free google serif regular italic semibold bold bolditalic unknown oldstyle
+    reqs: r3 free google serif regular italic semibold bold bolditalic oldstyle
   - name: Goudy Old Style
     reqs: r2 free pro osx google serif regular italic bold bolditalic extrabold oldstyle
     google: Sorts Mill Goudy
@@ -322,7 +326,7 @@ fonts:
   - name: Lusitana
     reqs: r2 free google serif regular bold oldstyle
   - name: Cardo
-    reqs: r2 free google serif regular italic bold unknown oldstyle
+    reqs: r2 free google serif regular italic bold oldstyle
   - name: ITC Century
     reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black oldstyle
   - name: Hoefler Text
@@ -337,7 +341,7 @@ fonts:
     reqs: r2 free pro osx msoffice google serif regular italic bold oldstyle
     info: "  <a href=\"http://www.google.com/webfonts/specimen/EB+Garamond\">EB Garmond on Google</a><br>   Garamond, Baskerville, \"Baskerville Old Face\", \"Hoefler Text\", \"Times New Roman\", serif;<br>Check out ITC Garamond"
   - name: Vollkorn
-    reqs: r2 free google serif regular italic bold bolditalic unknown
+    reqs: r2 free google serif regular italic bold bolditalic
   - name: Poly
     reqs: r2 free google serif regular italic oldstyle
   - name: PT Serif
@@ -384,12 +388,9 @@ fonts:
     reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps humanist
     price: 65
   - name: FF Tundra
-    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold condensed smallcaps unknown
+    reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold condensed smallcaps
     price: 65
     info: "  Not wide font.  Not named condensed.<br>"
-  - name: Pluto
-    reqs: nr r2 pro serif thin book regular italic bold bolditalic extrabold black condensed script
-    price: 40
   - name: Times New Roman
     reqs: r2 free browser windows msoffice osx linux serif regular italic bold bolditalic condensed smallcaps transitional
   - name: Times
@@ -413,15 +414,15 @@ fonts:
     reqs: r1 windows msoffice osx serif regular italic bold bolditalic oldstyle
     info: "  Same as Monotype, Palatino, and Unternehmensberatung Rubow Weber (URW) Palladio L<br>"
   - name: Menlo
-    reqs: r2 osx serif mono regular italic bold bolditalic unknown humanist
+    reqs: r2 osx serif mono regular italic bold bolditalic humanist
   - name: Cochin
     reqs: r1 pro osx serif regular italic bold bolditalic transitional
     price: 26
   - name: DejaVu Serif
-    reqs: r3 free linux serif book regular italic bold bolditalic condensed unknown humanist
+    reqs: r3 free linux serif book regular italic bold bolditalic condensed humanist
     info: "  Extension of Bitstream Vera<br>"
   - name: DejaVu Serif Condensed
-    reqs: r3 free linux serif book regular italic bold bolditalic condensed unknown humanist
+    reqs: r3 free linux serif book regular italic bold bolditalic condensed humanist
     info: "  Extension of Bitstream Vera<br>"
   - name: Meridien
     reqs: nr r3 pro serif regular italic semibold bold bolditalic condensed oldstyle
@@ -436,15 +437,15 @@ fonts:
     reqs: r3 free serif regular italic bold bolditalic oldstyle
     info: "  <a href=\"http://en.wikipedia.org/wiki/Palatino\">Wikipedia</a>   Replacement for Palitino"
   - name: FF Quadraat
-    reqs: nr r3 pro serif regular italic semibold bold bolditalic unknown
+    reqs: nr r3 pro serif regular italic semibold bold bolditalic
     price: 59
   - name: FF Celeste
     reqs: nr r3 pro serif thin book regular italic semibold bold bolditalic extrabold black humanist
     price: 65
   - name: Museo
-    reqs: r2 bought free serif slab book regular bold unknown
+    reqs: r2 bought free serif slab book regular bold
   - name: Calluna
-    reqs: r2 free pro serif thin regular italic semibold bold bolditalic black unknown
+    reqs: r2 free pro serif thin regular italic semibold bold bolditalic black
     info: Regular font is free.
   - name: Otama.ep
     reqs: r2 free pro serif thin book regular italic semibold bold bolditalic extrabold black modern
@@ -458,7 +459,7 @@ fonts:
 
 # Slabs
   - name: Bree Serif
-    reqs: r3 free google serif slab regular italic bold bolditalic unknown
+    reqs: r3 free google serif slab regular italic bold bolditalic
   - name: Arvo
     reqs: r2 free google serif slab regular italic bold bolditalic geometric
   - name: Crete Round
@@ -475,14 +476,14 @@ fonts:
   - name: Rockwell
     reqs: r1 free pro osx slab thin book regular italic semibold bold bolditalic extrabold black condensed
   - name: Museo Slab
-    reqs: r2 bought free serif slab book regular bold unknown
+    reqs: r2 bought free serif slab book regular bold
   #- name: Trilby
     #reqs: nr r2 pro serif slab regular italic bold bolditalic black
     #price: 40
 
 # Monos
   - name: Droid Sans Mono
-    reqs: r3 free google sans mono regular unknown
+    reqs: r3 free google sans mono regular
   - name: Consolas
     reqs: r2 pro windows msoffice mono regular italic bold bolditalic
   - name: Courier New
@@ -498,19 +499,19 @@ fonts:
 
 #Headings
   - name: Bemio
-    reqs: r2 free sans black unknown
+    reqs: r2 free sans black
   - name: Bemio Italic
-    reqs: r2 free sans black unknown
+    reqs: r2 free sans black
   - name: Chivo
     reqs: r1 google sans regular italic bold bolditalic black grotesque
   - name: Playfair Display
     reqs: r3 free google serif regular italic bold bolditalic black smallcaps ligatures transitional
   - name: Muncie
-    reqs: r2 free sans regular smallcaps unknown
+    reqs: r2 free sans regular smallcaps
   - name: Arvil
-    reqs: r2 free sans regular smallcaps unknown
+    reqs: r2 free sans regular smallcaps
   - name: vevey
-    reqs: r2 free sans regular smallcaps unknown
+    reqs: r2 free sans regular smallcaps
   - name: Lavanderia
     reqs: r3 free thin regular semibold script
     info: Lost-Type Co-op
@@ -532,57 +533,60 @@ fonts:
   - name: BodoniFLF
     reqs: r3 free pro serif thin book regular italic semibold bold bolditalic extrabold black condensed smallcaps modern
   - name: Mostra Nuova
-    reqs: nr r3 pro sans thin book regular semibold bold extrabold black unknown
+    reqs: nr r3 pro sans thin book regular semibold bold extrabold black
     price: 29
 
 #Script
   - name: Ollie
-    reqs: nr r3 pro regular ligatures script
+    reqs: nr r3 pro regular ligatures script casual
   - name: Apple Chancery
-    reqs: r3 osx regular ligatures script
+    reqs: r3 osx regular ligatures script formal
   - name: Gelato Script
-    reqs: nr r2 pro regular italic smallcaps script
+    reqs: nr r2 pro regular italic smallcaps script casual
     price: 60
   - name: Satisfy
-    reqs: r3 free google regular script
+    reqs: r3 free google regular script casual
+  - name: Pluto
+    reqs: nr r2 pro serif thin book regular italic bold bolditalic extrabold black condensed script casual
+    price: 40
   - name: Bubblegum Sans
-    reqs: r2 free google regular script
+    reqs: r2 free google regular script casual
   - name: Sansita One
-    reqs: r2 free google regular script
+    reqs: r2 free google regular script casual
   - name: Comic Sans MS
-    reqs: r1 free browser windows osx linux sans regular italic bold bolditalic script
+    reqs: r1 free browser windows osx linux sans regular italic bold bolditalic script casual
   - name: TeX Gyre Chorus
-    reqs: r1 free italic script
+    reqs: r1 free italic script formal
   - name: Rochester
-    reqs: r2 google regular script
+    reqs: r2 google regular script formal
   - name: Niconne
-    reqs: r2 google regular script
+    reqs: r2 google regular script casual
   - name: Dancing Script
-    reqs: r2 google regular bold script
+    reqs: r2 google regular bold script formal
   - name: Oldenburg
-    reqs: r1 google regular script
+    reqs: r1 google regular script casual
   - name: Creamy Script
-    reqs: nr r3 pro book regular bold script
+    reqs: nr r3 pro book regular bold script casual
     price: 29
   - name: Coffee Service
-    reqs: nr r3 pro book regular bold script
+    reqs: nr r3 pro book regular bold script casual
     price: 39
   - name: Mercury Script
-    reqs: nr r3 pro book regular bold script
+    reqs: nr r3 pro book regular bold script formal
     price: 25
   - name: Courgette
-    reqs: r3 free google regular script
+    reqs: r3 free google regular script casual
   - name: Pacifico
-    reqs: r2 free google regular script
+    reqs: r2 free google regular script casual
   - name: Mishka
-    reqs: nr r2 pro regular italic smallcaps script
+    reqs: nr r2 pro regular italic smallcaps script formal
     price: 35
   - name: Sacramento
-    reqs: r2 free google regular script
+    reqs: r2 free google regular script formal
   - name: Clicker Script
-    reqs: r3 free google regular script
+    reqs: r3 free google regular script formal
   - name: Zapfino
-    reqs: r1 osx regular ornamants script
+    reqs: r1 osx regular ornamants script formal
 
 
 #ornamants
