@@ -38,9 +38,17 @@ fonts:
 #anodyne
 #Corben
 #http://www.briangardner.com/most-popular-serif-google-fonts/
+#http://www.myfonts.com/foundry/Mika_Melvas/
 #
   #- name: Name
-    #reqs: r1 r2 r3 bought free pro browser osx windows msoffice linux google thin book regular italic semibold bold bolditalic extrabold black ornamants condensed smallcaps ligatures serif oldstyle transitional modern slab sans grotesque neo_grotesque humanist geometric script formal casual
+    #reqs: 
+      #r1 r2 r3
+      #serif oldstyle transitional modern slab
+      #sans grotesque neo_grotesque humanist geometric
+      #script formal casual artistic
+      #free google pro browser osx windows msoffice linux bought 
+      #thin book regular italic semibold bold bolditalic extrabold black ornamants
+      #condensed smallcaps ligatures
     #fontFamily: Name
     #google: Name
 
